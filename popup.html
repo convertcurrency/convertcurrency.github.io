@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Currency Converter</title>
+    <link href="popup.css" rel="stylesheet" media="screen"/>
+	<meta charset="UTF-8">
+  </head>
+  <body id="body" class="body">
+    <h1>Currency Converter</h1>
+    <form>
+      <label for="currency-select">From:</label>
+      <select id="currency-select" style="width: 200px;">
+        <option value="">Select an option</option>
+      </select>
+      <br>
+      <label for="to">To:</label>
+      <select id="to" style="width: 200px;">
+        <option value="">Select an option</option>
+      </select>
+      <br>
+      <label for="amount-input">Amount:</label>
+      <input type="number" id="amount-input" placeholder="e.g. 100">
+      <br>
+    </form>
+      <button type="button" id="convert-button">Convert</button>
+    <p id="p">
+      Converted amount: <span id="converted-amount"></span>
+      <br>
+      <a href="https://www.flaticon.com/free-icons/currency" title="currency icons">Extenstion icons created by Freepik - Flaticon</a>
+    </p>
+	<script src="popup.js"></script>
+  </body>
+</html>
